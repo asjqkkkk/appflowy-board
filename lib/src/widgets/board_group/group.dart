@@ -381,7 +381,8 @@ class _AppFlowyBoardGroupState extends State<AppFlowyBoardGroup> {
     return Container(
       margin: widget.margin,
       decoration: BoxDecoration(
-        color: widget.backgroundColor,
+        color: widget.dataSource.groupData.colorOption?.backgroundColor ??
+            widget.backgroundColor,
         borderRadius: BorderRadius.circular(widget.cornerRadius),
       ),
       child: content,

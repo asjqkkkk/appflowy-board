@@ -29,7 +29,7 @@ class AppFlowyBoardConfig {
     this.groupMargin = const EdgeInsets.symmetric(horizontal: 8),
     this.groupHeaderPadding = const EdgeInsets.symmetric(horizontal: 16),
     this.groupBodyPadding = const EdgeInsets.symmetric(horizontal: 12),
-    this.groupFooterPadding = const EdgeInsets.symmetric(horizontal: 12),
+    this.groupFooterPadding = const EdgeInsets.fromLTRB(12, 0, 12, 8),
     this.stretchGroupHeight = true,
     this.cardMargin = const EdgeInsets.symmetric(horizontal: 3, vertical: 4),
     this.dragAutoScrollVelocity = 30.0,
