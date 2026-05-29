@@ -255,8 +255,8 @@ class AppFlowyGroupHeaderData {
 
 abstract class IColorOption {
   String get title;
-  Color get backgroundColor;
-  Color get palletteColor;
-  Color get textColor;
-  Color get labelColor;
+  Color? backgroundColor(BuildContext context);
+  Color? palletteColor(BuildContext context);
+  Color? textColor(BuildContext context);
+  Color? labelColor(BuildContext context);
 }
